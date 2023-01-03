@@ -1,0 +1,60 @@
+
+#SCORE{
+    margin-left: 50px;
+    color:aqua;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: black;
+}
+#TIMER{
+  margin-left: 800px;
+    color:aqua;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: black;
+}
+body{
+    background-image:linear-gradient(to bottom right,aqua,gold,magenta,yellow,lime);
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+color:aqua;
+background-color:black ;
+
+text-align: center;
+}
+#show_sketch{
+    margin-top: 10px;
+    float:right;
+    color :black;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color:greenyellow;
+    height:55px ;
+
+}
+p{
+    color: aqua;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: black;
+}
+canvas{
+    border : 5px dotted aqua;
+    border-radius:77px ;
+    margin-top: 100px;
+    animation-name: sash;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes sash{
+    from{box-shadow: 20px 20px 150px gold;}
+    to{box-shadow: 20px 20px 150px black;}
+}
+#CLEAR{
+    color:aqua;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: black;
+}
